@@ -35,9 +35,9 @@ public class Class1
     static void Main()
     {
 
-        /*A faim = new A();
-        faim.set(5, 6);
-        Console.WriteLine(faim.get());*/
+        A random = new A();
+        random.set(5, 6);
+        Console.WriteLine(random.get());
         Box faim = new Box(2,2,3);
         Box faim1= new Box(3, 3, 3);
         Box faim2 = faim + faim1;
@@ -58,7 +58,7 @@ public class Class1
 
 }
 
-/*class A
+class A
 {
     private int a, b;
     public void set(int p, int q)
@@ -71,4 +71,4 @@ public class Class1
     }
 
 }
-*/
+
